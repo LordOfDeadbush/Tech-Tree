@@ -78,7 +78,7 @@ border: 1px solid rgb(204, 204, 204);
 padding: 5px 10px;
 text-decoration: none;
 text-align: center;
-color: #666;
+color: lightgray;
 font-family: arial, verdana, tahoma;
 font-size: 11px;
 display: inline-block;
@@ -109,7 +109,7 @@ border-color:  #94a0b4;
 /* time to add my own shit*/
 
 .tree li a.avail {
-background-color: yellowgreen;
+color: yellowgreen;
 font-weight: bold;
 }
 
@@ -119,8 +119,8 @@ background-color: rgb(194, 255, 100);
 
 
 .tree li a.complete {
-background-color: black ;
-color: lightgray;
+ ;
+color: #666;
 text-decoration: line-through;
 }
 
