@@ -1,8 +1,15 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: Update the tech tree
+run-name: Updating the SVG file
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Updating_Tree:
     runs-on: ubuntu-latest
     steps:
-      - run: node index.js
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content
+
+      - name: setup KS
+        uses: actions/setup-node@v3
+        
+      - name: Running the updater
+        run: node index.js
