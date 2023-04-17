@@ -1,34 +1,87 @@
 [
     {
-        "content": "parent",
+        "content": "start here",
         "link": "#",
         "complete": true,
         "classes":[],
         "children": [
             {
-                "content": "child 1",
-                "link": "#",
-                "complete": false,
-                "classes":[],
-                "children": [
-                    
-                ]
-            },
-            {
-                "content": "child 2",
+                "content": "Making a files object (Introducing OOP)",
                 "link": "#",
                 "complete": false,
                 "classes":[],
                 "children": [
                     {
-                        "content": "child 1",
+                        "content": "Implement inheritence so we can differentiate folders from files",
+                        "link": "#",
+                        "complete": false,
+                        "classes":[],
+                        "children": [
+                        ]
+                    }
+                    
+                ]
+            },
+            {
+                "content": "Making basic text commands (show files, switch directory, etc)",
+                "link": "#",
+                "complete": false,
+                "classes":[],
+                "children": [
+                    {
+                        "content": "Making a basic text UI",
+                        "link": "#",
+                        "complete": false,
+                        "classes":[],
+                        "children": [
+                            {
+                                "content": "Making a GUI (maybe using TK)",
+                                "link": "#",
+                                "complete": false,
+                                "classes":[],
+                                "children": [
+                                    
+                                ]
+                            }
+        
+                        ]
+                    }
+                ]
+            },
+            {
+                "content": "Getting Data From Directories using cd and ls",
+                "link": "#",
+                "complete": false,
+                "classes":[],
+                "children": [
+                    {
+                        "content": "Searching for files",
                         "link": "#",
                         "complete": false,
                         "classes":[],
                         "children": [
                             
                         ]
-                    }                            
+                    },
+                    {
+                        "content": "Opening Files using terminal",
+                        "link": "#",
+                        "complete": false,
+                        "classes":[],
+                        "children": [
+                            {
+                                "content": "Running Files",
+                                "link": "#",
+                                "complete": false,
+                                "classes":[],
+                                "children": [
+                                    
+                                ]
+                            }
+
+                        ]
+                    }
+
                 ]
             }
                 
