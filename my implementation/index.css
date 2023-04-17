@@ -69,7 +69,7 @@ right connector from last child*/
 }
 
 .tree li a{
-	border: 1px solid #ccc;
+	border: 1px solid rgb(204, 204, 204);
 	padding: 5px 10px;
 	text-decoration: none;
 	color: #666;
@@ -87,9 +87,8 @@ right connector from last child*/
 }
 
 /*Time for some hover effects*/
-/*We will apply the hover effect the the lineage of the element also*/
-.tree li a:hover, .tree li a:hover+ul li a {
-	background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+.tree li a:hover {
+	background: rgb(195, 195, 195); color: #000; border: 1px solid #94a0b4;
 }
 /*Connector styles on hover*/
 .tree li a:hover+ul li::after, 
@@ -97,6 +96,28 @@ right connector from last child*/
 .tree li a:hover+ul::before, 
 .tree li a:hover+ul ul::before{
 	border-color:  #94a0b4;
+}
+
+/* time to add my own shit*/
+
+.tree li a.avail {
+	background-color: yellowgreen;
+	font-weight: bold;
+}
+
+.tree li a.avail:hover {
+	background-color: rgb(194, 255, 100);
+}
+
+
+.tree li a.complete {
+	background-color: black ;
+	color: lightgray;
+	text-decoration: line-through;
+}
+
+.tree li a.complete:hover {
+	background-color: rgb(70, 70, 70);
 }
 
 /*Thats all. I hope you enjoyed it.
