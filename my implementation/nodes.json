@@ -1,0 +1,29 @@
+[
+    {
+        "content": "parent",
+        "link": "#",
+        "complete": false,
+        "classes":[],
+        "children": [
+            {
+                "content": "child 1",
+                "link": "#",
+                "complete": false,
+                "classes":[],
+                "children": [
+                    
+                ]
+            },
+            {
+                "content": "child 2",
+                "link": "#",
+                "complete": false,
+                "classes":[],
+                "children": [
+                    
+                ]
+            }
+                
+        ]
+    }
+]
