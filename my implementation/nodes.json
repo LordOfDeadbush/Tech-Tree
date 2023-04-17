@@ -2,7 +2,7 @@
     {
         "content": "parent",
         "link": "#",
-        "complete": false,
+        "complete": true,
         "classes":[],
         "children": [
             {
@@ -20,7 +20,15 @@
                 "complete": false,
                 "classes":[],
                 "children": [
-                    
+                    {
+                        "content": "child 1",
+                        "link": "#",
+                        "complete": false,
+                        "classes":[],
+                        "children": [
+                            
+                        ]
+                    }                            
                 ]
             }
                 

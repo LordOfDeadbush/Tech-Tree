@@ -29,8 +29,8 @@ function writeNode(content, link, avail, complete, classes) {
 
     if (classes.length || (avail || complete)) {
         element += " class=\"";
-        if (avail) element += "avail ";
         if (complete) element += "complete ";
+        if (avail && !complete) element += "avail ";
         for (var i = 0; i < classes.length; i++) {
             element += classes[i] + " ";
         }
