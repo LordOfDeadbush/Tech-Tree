@@ -8,4 +8,4 @@ The goal here is to go from the basic stuff to make something more dynamic (mayb
 
 (note: running the .json file will update the svg, which will show below:)
 
-![alt text](template.svg)
+![Alt text](./svg.svg)
